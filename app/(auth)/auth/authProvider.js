@@ -50,7 +50,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   // Forget Password function
-  const API_BASE_URL = "http://localhost:8080"; // Centralized base URL
+ // Centralized base URL
 
   const forgetAction = async (email) => {
     try {
