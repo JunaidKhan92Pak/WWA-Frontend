@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../../../components/Navbar";
+// import Navbar from "../../../components/Navbar";
 import Hero from "./components/Hero";
 import StudyInUs from "./components/StudyInUk";
 import WorkOpportunity from "./components/WorkOpportunity";
 import PermanentResidency from "./components/PermanentResidency";
 import PopularPrograms from "./components/PopularPrograms";
-import MobileNavbar from "@/components/MobileNavbar";
+// import MobileNavbar from "@/components/MobileNavbar";
 const Countrypage = () => {
   return (
     <div>
