@@ -1,11 +1,11 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-// import Link from "next/link"
 import { Bot, Headphones, Trophy, Users, Send } from "lucide-react";
 
-function page() {
+function Page() {
   const universities = [
     {
       name: "Massey University",
@@ -29,6 +29,7 @@ function page() {
       logo: "/massey-logo.png",
     },
   ];
+
   const features = [
     {
       icon: <Bot className="h-8 w-8" />,
@@ -297,4 +298,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
