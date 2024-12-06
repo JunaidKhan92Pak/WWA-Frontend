@@ -1,0 +1,4 @@
+# Ignore node_modules folder (Node.js dependencies)
+/node_modules/
+.env
+.next/
