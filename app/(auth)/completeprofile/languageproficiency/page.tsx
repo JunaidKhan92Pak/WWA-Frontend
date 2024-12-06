@@ -21,7 +21,7 @@ const Step3 = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "http://localhost:8080/updateprofile/english-proficiency",
+        "https://wwa-bk.vercel.app/updateprofile/english-proficiency",
         {
           method: "POST",
           headers: {

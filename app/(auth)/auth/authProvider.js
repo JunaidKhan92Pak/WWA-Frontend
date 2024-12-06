@@ -13,7 +13,7 @@ export const AuthProvider = ({ children }) => {
   // Login function
   const loginAction = async (userData) => {
     try {
-      const res = await fetch(`http://localhost:8080/signin`, {
+      const res = await fetch(`https://wwa-bk.vercel.app/signin`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(userData),
@@ -32,7 +32,7 @@ export const AuthProvider = ({ children }) => {
   // Signup function
   const signupAction = async (userData) => {
     try {
-      const response = await fetch(`http://localhost:8080/signup`, {
+      const response = await fetch(`https://wwa-bk.vercel.app/signup`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(userData),
@@ -54,7 +54,7 @@ export const AuthProvider = ({ children }) => {
 
   const forgetAction = async (email) => {
     try {
-      const response = await fetch(`${API_BASE_URL}/forgotpassword`, {
+      const response = await fetch(`https://wwa-bk.vercel.app/forgotpassword`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),
@@ -82,7 +82,7 @@ export const AuthProvider = ({ children }) => {
 
   const verifyOtpAction = async (enteredOtp) => {
     try {
-      const response = await fetch("http://localhost:8080/verifyOtp", {
+      const response = await fetch("https://wwa-bk.vercel.app/verifyOtp", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -100,7 +100,7 @@ export const AuthProvider = ({ children }) => {
   
   const resetPasswordAction = async (newPassword) => {
     try {
-      const response = await fetch("http://localhost:8080/resetpassword", {
+      const response = await fetch("https://wwa-bk.vercel.app/resetpassword", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -131,7 +131,7 @@ export const AuthProvider = ({ children }) => {
   
     try {
       // Send logout request to your API to handle server-side logout
-      const response = await fetch('http://localhost:8080/logout', {
+      const response = await fetch('https://wwa-bk.vercel.app/logout', {
         method: "GET", // Or POST if preferred
         headers: {
           // Add any headers if required (e.g., for JWT token or content-type)

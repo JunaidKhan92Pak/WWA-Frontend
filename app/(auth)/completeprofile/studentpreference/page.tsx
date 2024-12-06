@@ -28,7 +28,7 @@ const Step4 = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/updateprofile/userPreference",
+        "https://wwa-bk.vercel.app/updateprofile/userPreference",
         {
           method: "POST",
           headers: {

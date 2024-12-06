@@ -20,7 +20,7 @@ const Page = () => {
     console.log(userInput);
 
     try {
-      const response = await fetch("http://localhost:8080/askai", {
+      const response = await fetch("https://wwa-bk.vercel.app/askai", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

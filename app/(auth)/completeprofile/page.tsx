@@ -38,7 +38,7 @@ const router= useRouter();
     e.preventDefault();
 
   try{
-    const response = await fetch('http://localhost:8080/updateprofile/personal-Information' , {
+    const response = await fetch('https://wwa-bk.vercel.app/updateprofile/personal-Information' , {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

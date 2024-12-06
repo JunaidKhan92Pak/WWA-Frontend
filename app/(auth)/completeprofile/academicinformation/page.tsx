@@ -24,7 +24,7 @@ const AcademicInformation = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "http://localhost:8080/updateprofile/academic-Information",
+        "https://wwa-bk.vercel.app/updateprofile/academic-Information",
         {
           method: "POST",
           headers: {
