@@ -30,7 +30,7 @@ const WorkOpportunity = () => {
             <div className="mt-4 text-center md:text-left">
               <h4 className="text-lg sm:text-xl md:text-2xl font-bold">Post-Study Work Visa</h4>
               <p className="mt-2">
-                After earning a bachelors or masters degree, students are granted a two-year work
+                After earning a bachelor's or master's degree, students are granted a two-year work
                 visa. PhD holders are granted a three-year work visa.
               </p>
             </div>
