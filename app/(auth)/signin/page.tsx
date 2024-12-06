@@ -41,7 +41,7 @@ const Page = () => {
       try {
         const loginres = await loginAction(userData);
         if (loginres.success) {
-          router.push("/countrypage");
+          router.push("/");
         } else {
           setGeneralError("Invalid email or password");
         }
