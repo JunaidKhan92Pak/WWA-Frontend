@@ -33,7 +33,7 @@ export default function RootLayout({
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <MobileNavbar />
-        <div className="hidden md:block">
+        <div className="">
           <Navbar/>
         </div>
         {/* Wrap children with AuthProvider */}
